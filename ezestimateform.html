@@ -3,14 +3,22 @@
 <head>
 <link rel="stylesheet" href="main.css">    
 </head>
-    <body>
-        <h1>Income Tax Preparation</h1>
-        <h2>Allan A. Ramirez</h2>
-            <p>ramirezallan@hotmail.com</p>
-        <h2>Form 1040 EZ Return Estimate</h2>
-            //Insert javascript and form content
-            <p>Schedule an appointment</p>
-            <p>Response within 24hrs</p>
-            <p>Hosted with GitHub Pages.</p>    
-    </body>
+<body>
+    <h1>Income Tax Preparation</h1>
+    <h2>Allan A. Ramirez</h2>
+        <p>ramirezallan@hotmail.com</p>
+    <h2>Form 1040 EZ Return Estimate Beta Version</h2>
+    <form action="/action_page.php" oninput="x.value=parseInt(a.value)-parseInt(b.value)">
+        <p>Enter total income</p>
+        <input type="text" id="a" name="a" value="0">
+        <p>Enter 10400 if single, 20800 if Married</p>
+        <input type="text" id="b" name="b" value="0">
+        <p>Taxable Income</p>
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="button" id="appt" value="Schedule an appointment">
+    </form>    
+    <p>Response within 24hrs</p>
+    <p>Hosted with GitHub Pages.</p>    
+</body>
 </html>
